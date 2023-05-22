@@ -1,0 +1,75 @@
+@keyframes visual_text{
+    from{transform: translateY(50px); opacity: 0;}
+    to{transform: translateY(0); opacity: 1;}
+}
+@keyframes dock{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+
+
+
+.visual{position: relative; margin-bottom: 50px;}
+.visual .gallery li{position: relative; }
+.visual .gallery img{width: 100%;}
+.visualText p{color: #fff; font-family: 'Noto Sans KR', sans-serif;}
+.visualText p:nth-of-type(1){position: absolute; top: 35%; left: 20%; font-size: 1.714em;  opacity: 0; padding-bottom: 50px;}
+.visualText p:nth-of-type(2){position: absolute; top: 45%; left: 20%; font-size: 1em;opacity: 0;padding-top: 15px;}
+.dock{font-family: 'Noto Sans KR', sans-serif; position: absolute; top: 65%; left: 20%;animation: dock 1 1.5s;}
+.dock .mbutton{position: relative; margin-right: 10px;color: #fff; transition: all .3s ease;}
+.dock .mbutton::before{content: ''; display: block; width: 25px; height: 5px; background: rgba(255,255,255,.4); position: absolute; top: -10px; left: 0; border-radius: 5px; transition: all .3s ease;}
+.dock .mbutton.on{color: rgba(239,0,16,1); margin-right: 35px;}
+.dock .mbutton.on::before{width: 50px; background: rgba(239,0,16,1);}
+
+.swiper4 .swiper-slide-active p:nth-of-type(1){animation: visual_text 1 .5s ease-out alternate; animation-fill-mode: forwards;animation-delay: .5s;  opacity: 0; padding-bottom: 50px;}
+.swiper4 .swiper-slide-active p:nth-of-type(2){animation: visual_text 1 .5s ease-out alternate; animation-fill-mode: forwards; animation-delay: .8s; opacity: 0;padding-top: 15px;}
+
+#content{font-family: 'Noto Sans KR', sans-serif;}
+#content h3{font-size:1.750em; margin-left: 20px; font-weight: 700; margin-bottom: 20px; font-family: 'Roboto', sans-serif;  font-weight:700;}
+.business_arae{position: relative; margin-bottom: 50px;}
+#content .busiTop p{margin-left: 20px; margin-bottom: 20px; }
+#content .busiCon{position: relative;}
+#content .busiCon img{width: 100%;}
+#content .busiCon dl{position: absolute; left: 0; bottom: 0; color: #fff;  background: rgba(0,0,0,.6); width: 100%;}
+#content .busiCon dt{font-size: 1.250em; margin-bottom: 10px;padding: 20px 20px 0;}
+#content .busiCon dd{padding: 0 20px 20px;}
+#content .busiBtn{position: absolute; right: 20px; top: -5px;}
+#content .busiBtn .busiPrev{float: left; font-size: 1.250em; padding: 5px 10px;}
+#content .busiBtn .busiNext{float: right;font-size: 1.250em;margin-left: 10px; padding: 5px 10px;}
+
+
+#content .sustainability{margin-bottom: 50px; background: #f7f7f7; padding: 50px 0;}
+#content .sustainability .swiper2{padding-left: 20px; padding-right: 20px;}
+#content .sustainability li{position: relative; color: #fff;  }
+#content .sustainability .spanInner{position: absolute; left: 5%; bottom: 20%; display: block; } 
+#content .sustainability h4{font-size: 1.250em; font-weight: 700;  margin-bottom: 20px;}
+#content .sustainability p{padding-right: 20px; box-sizing: border-box; text-align: justify;}
+#content .sustainability img{border-radius: 40px; width: 100%;}
+#content .sustainability .swiper2 .swiper-slider{width: 55%;}
+#content .sustainability .susMore{position: absolute; top: 30px; right: 30px; font-size: 1.250em; color: #fff;}
+
+
+#content .information{margin-bottom: 50px;position: relative;}
+#content .information li{position: relative;  width: 125px;}
+#content .information li img{width: 125px; height: 188px;}
+#content .information li span{display: block; position: absolute; left: 0; bottom: 0; background: rgba(0,0,0,.6); width: 125px; color: #fff; padding: 10px 0 ; box-sizing: border-box;font-family: 'Noto Sans KR', sans-serif; text-align: center; font-weight: 400; font-size: 1rem;}
+#content .infoBtn{position: absolute; right: 30px; top: -5px;}
+#content .infoBtn .infoPrev{float: left; font-size: 1.250em; padding: 5px 10px;}
+#content .infoBtn .infoNext{float: left;font-size: 1.250em;margin-left: 10px; padding: 5px 10px;}
+#content .infoBtn .infoMore{float: right;font-size: 1.250em;margin-left: 10px; padding: 5px 10px;}
+
+
+#content .employment{position: relative; margin-bottom: 50px;}
+#content .employment span{width: 100%; height: 200px; background: url(../images/employ01.jpg) center; background-size: cover; display: block;}
+#content .employment h3{color: #fff; font-weight: 700;font-family: 'Noto Sans KR', sans-serif; position: absolute;  bottom: 35%; margin-bottom: 20px;}
+#content .employment p{color: #fff; position: absolute; left: 20px; bottom: 30%;}
+#content .employment a{padding: 6px 10px 5px; position: absolute; right: 10px; bottom: 40%; color: #fff; border: 1px solid #fff;}
+
+.swiper-scrollbar-drag{ color: rgba(239,0,16,1); background: rgba(239,0,16,1);}
+
+.swiper-pagination-bullet{width: 30px; border-radius: 5px; margin-right: 10px; transition: all .3s ease;}
+.swiper-pagination-bullet-active{width: 60px; background: rgba(239,0,16,1);}
+.swiper-pagination4{position: absolute; top: 65%; left: 20%;}
+
+

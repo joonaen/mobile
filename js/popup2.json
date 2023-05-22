@@ -1,0 +1,17 @@
+{
+    "info": [
+        {"Hname":"안성 금호어울림 더프라임","Addr":"경기도 안성시 당왕동 112번지","Household":"총 1,240세대","Flatinfo":"59㎡A/B, 74㎡A/B, 84㎡A/B","Image":"./images/info1_01.jpg"},
+        {"Hname":"강릉교동 금호어울림 올림픽파크","Addr":"강원도 강릉시 교동 637-1번지","Household":"총 346세대","Flatinfo":"84㎡A, 84㎡B, 118㎡","Image":"./images/info2_01.jpg"},
+        {"Hname":"왕길역 금호어울림 에듀그린","Addr":"인천광역시 서구 오류동 1719-4번지","Household":"총 243세대","Flatinfo":"59㎡A, 59㎡B, 84㎡A, 84㎡B","Image":"./images/info3_01.jpg"},
+        {"Hname":"옥천역 금호어울림 더퍼스트","Addr":"충청북도 옥천군 마암리 2-3번지","Household":"총 499세대","Flatinfo":"84㎡A, 84㎡B, 84㎡C, 114㎡","Image":"./images/info4_01.jpg"},
+        {"Hname":"문수로 금호어울림 더 퍼스트","Addr":"울산시 남구 신정동 1154-7번지","Household":"총 402세대","Flatinfo":"84㎡A, 84㎡B, 84㎡C","Image":"./images/info5_01.jpg"},
+        {"Hname":"진천 금호어울림 센트럴파크","Addr":"충청북도 진천군 이월면 송림리 451-1","Household":"총 378세대","Flatinfo":"76㎡A, 76㎡B, 84㎡A, 84㎡B","Image":"./images/info6_01.jpg"},
+        {"Hname":"DMC 금호 리첸시아","Addr":"서울특별시 서대문구 수색로 32-11","Household":"총 450세대","Flatinfo":"16㎡, 59㎡, 74㎡, 84㎡","Image":"./images/info7_01.jpg"},
+        {"Hname":"광주 금호 리첸시아","Addr":"경기도 광주시 경안동 38-3번지","Household":"총 447세대","Flatinfo":"62㎡A, 63㎡, 77㎡B, 82㎡","Image":"./images/info8_01.jpg"},
+        {"Hname":"리첸시아 중동","Addr":"경기도 부천시 원미구 중동 1116번지","Household":"총  572세대","Flatinfo":"160㎡, 193㎡","Image":"./images/info9_01.jpg"},
+        {"Hname":"리첸시아 용산","Addr":"서울특별시 용산구 원효로1가","Household":"총 260세대","Flatinfo":"134A㎡, 135B㎡, 180P㎡, 185㎡","Image":"./images/info10_01.jpg"},
+        {"Hname":"리첸시아 방배","Addr":"서울특별시 서초구 방배동 755-13번지","Household":"총 79세대","Flatinfo":"163㎡, 190㎡","Image":"./images/info11_01.jpg"},
+        {"Hname":"용산구한남동 금호리첸시아","Addr":"서울특별시 용산구 한남1동 72-1","Household":"총  393세대","Flatinfo":"67㎡, 68㎡, 72㎡, 80㎡, 82A㎡, 84B㎡,","Image":"./images/info12_01.jpg"}
+        
+    ]
+}

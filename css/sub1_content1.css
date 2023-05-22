@@ -1,0 +1,43 @@
+body{font-family: 'Noto Sans KR', sans-serif;}
+
+.visual {width: 100%;height: 200px; background: url(../images/sub1visualX2.jpg) no-repeat center bottom; background-size: cover;}
+.visual h3{position: absolute; top: 85px; width: 100%; text-align: center; color: #fff; font-family: 'Noto Sans KR', sans-serif; font-weight: 400; font-size:1.9em;}
+.sub_nav{border-bottom: 1px solid #ccc;}
+.sub_nav ul{width: 100%;  overflow: hidden;}
+.sub_nav li{float: left; width: 33.33%; text-align: center; position: relative;}
+.sub_nav li a{display: block; font-family: 'Noto Sans KR', sans-serif; padding: 15px 0; font-weight: 400; }
+.sub_nav li .current{color: #fff; font-weight: 700; background: rgba(239,0,16,1);}
+
+#content .title_area{position: relative; overflow: hidden;}
+#content .title_area h2{ font-weight: 700; font-size: 2em; text-align: center;
+                        margin:50px 0 15px 0; position: relative;}
+#content .title_area h2::after{content: ""; display: block; background: rgba(239,0,16,1); width: 2px; height: 50px; position: absolute; left: 50%; margin-left: -1px; top: 130px;}
+#content .title_area p{ text-align: center; font-size: 1rem; }
+#content .title_area p:nth-last-child(1){font-size: 1rem; margin-bottom: 150px;}
+#content .title_area p span{color: rgba(239,0,16,1);}
+
+.wp1{position: relative; margin-bottom: 100px;}
+.wp1 img{width: 100%;}
+.wp1 p{position: absolute; text-align: center; width: 100%; color: #fff; top: 40%; font-weight: 700; font-size: 1.250em; line-height: 2em;}
+
+.corp_infoInner ul{padding: 0 20px;}
+.corp_infoInner li{margin-bottom: 50px;}
+.corp_infoInner img{ width: 100%; margin-bottom: 20px;}
+.corp_infoInner dt{margin-bottom: 10px; text-align: center; font-weight: 700; font-size: 1.250em;}
+.corp_infoInner dd{text-align: justify; line-height: 1.5em;}
+
+.corp_sale{position: relative; margin-bottom: 50px;}
+.corp_back{background: url(../images/sub1con5X2.jpg) no-repeat center; background-size: cover; width: 100%; height: 700px;}
+.corp_sale img{width: 100%;}
+
+.corp_sale h3{position: absolute; top: 50px; left: 50%; margin-left: -51px; z-index: 10; font-size: 2em; color: #fff; font-weight: 500; margin-bottom: 50px;}
+.corp_sale h3::after{content: ""; display: block; width: 80px; height: 2px; background: rgba(239,0,16,1); position: absolute; left: 50%; margin-left: -40px;}
+.saleCon{position: absolute; width: 100%; top: 200px;}
+.corp_sale dl{ text-align: center;  color: #fff; position: relative; margin-bottom: 100px; width: 100%;}
+.corp_sale dl::before{content: "2022"; display: block; width: 50px; height: 25px; background: rgba(239,0,16,.7); border-radius: 25px; position: absolute; top: -40px; left: 50%; margin-left: -25px; padding-top: 5px; box-sizing: border-box; font-size: 12px;}
+.corp_sale dl:nth-of-type(2):before{content: "2021";}
+.corp_sale dl:nth-of-type(3):before{content: "2020";}
+.corp_sale dl:nth-of-type(3){margin-right: 0; }
+.corp_sale dt{font-size: 1.5em; font-weight: 500;}
+.corp_sale dd{font-size: 1em;}
+.corp_sale span{position: absolute; bottom: 20px; right: 20px; color: #fff; font-size: 1em; font-weight: 500;}

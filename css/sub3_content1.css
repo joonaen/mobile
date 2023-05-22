@@ -1,0 +1,48 @@
+body{font-family: 'Noto Sans KR', sans-serif;}
+
+.visual {width: 100%;height: 200px; background: url(../images/sub3visualX2.jpg) no-repeat center top; background-size: cover;}
+.visual h3{position: absolute; top: 85px; width: 100%; text-align: center; color: #fff; font-family: 'Noto Sans KR', sans-serif; font-weight: 400; font-size:1.9em;}
+.sub_nav{border-bottom: 1px solid #ccc;}
+.sub_nav ul{width: 100%;  overflow: hidden;}
+.sub_nav li{float: left; width: 33.33%; text-align: center; position: relative;}
+.sub_nav li a{display: block; font-family: 'Noto Sans KR', sans-serif; padding: 15px 0; font-weight: 400; }
+.sub_nav li .current{color: #fff; font-weight: 700; background: rgba(239,0,16,1);}
+
+#content .title_area{position: relative; overflow: hidden;}
+#content .title_area h2{ font-weight: 700; font-size: 2em; text-align: center;
+                        margin:50px 0 15px 0; position: relative;}
+#content .title_area h2::after{content: ""; display: block; background: rgba(239,0,16,1); width: 2px; height: 50px; position: absolute; left: 50%; margin-left: -1px; top: 130px;}
+#content .title_area p{ text-align: center; font-size: 1rem; }
+#content .title_area p:nth-last-child(1){font-size: 1rem; margin-bottom: 150px;}
+#content .title_area p span{color: rgba(239,0,16,1);}
+
+
+.ethics .ethicsTop{ margin-bottom: 100px;}
+.ethics .ethicsTop p{text-align: center; font-size: 1.25em;}
+.ethics .ethicsTop p span:nth-of-type(1){ display: block; }
+.ethics .ethicsTop p strong{color: rgba(239,0,16,1);}
+
+.ethicsCon{overflow: hidden; margin-bottom: 100px;}
+.ethicsCon .ethicsImg{width: 40%; height: 270px; background: url(../images/ethicscon1_1.jpg) center; background-size: cover; float: left;}
+.ethicsCon .ethicsText{width: 55%; float: right; padding-right: 3%; text-align: justify; padding-top: 10%;}
+.ethicsCon .ethicsText p:nth-of-type(1){font-weight: 700; font-size: 1.2em; margin-bottom: 20px;}
+.ethicsCon .ethicsText p:nth-of-type(1) span{color: rgba(239,0,16,1);}
+
+.ethicsCon2{background: #f7f7f7; padding: 50px 0; margin-bottom: 50px;}
+.ethicsCon2 .con2Inner{padding: 0 20px;}
+.ethicsCon2 h3{font-size: 1.9em; font-weight: 700; margin-left: 30px; position: relative; margin-bottom: 50px;}
+.ethicsCon2 h3::before{content: ''; display: block; position: absolute; width: 5px; height: 35px; background: rgba(239,0,16,1); top: 0; left: -15px;}
+.con2Inner li{ position: relative;}
+.con2Inner li:nth-last-of-type(1){margin-bottom: 0;}
+.con2Inner li a{font-size: 1.2em; font-weight: 700; margin-bottom: 20px;padding: 15px 0;}
+.con2Inner li .a{margin-left: 30px; margin-bottom: 10px; text-align: justify; padding: 10px; border-bottom: 1px solid #ccc;}
+.a{display: none;}
+.con2Inner li span{position: absolute; top: 0; right: 0;}
+
+
+.ethicsCon3 h3{font-size: 1.9em; font-weight: 700; margin-left: 30px; position: relative; margin-bottom: 50px;}
+.ethicsCon3 h3::before{content: ''; display: block; position: absolute; width: 5px; height: 35px; background: rgba(239,0,16,1); top: 0; left: -15px;}
+.ethicsCon3 ul{padding: 0 20px;}
+.ethicsCon3 li{margin-bottom: 20px; border-bottom: 1px solid #ccc; padding-bottom: 20px;}
+.ethicsCon3 li:nth-last-of-type(1){border-bottom: none; text-align: justify;}
+.ethicsCon3 span{font-size: 1.2em; color: rgba(239,0,16,1); display: block; margin-bottom: 10px;}
